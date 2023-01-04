@@ -37,6 +37,7 @@
   "sql-formatter.uppercase": true,
   "terminal.integrated.defaultProfile.windows": "Bash",
   "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.profiles.windows": {
     "Bash": {
       "path": ["c:\\dev\\Git\\bin\\bash.exe"],
