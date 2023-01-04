@@ -1,35 +1,75 @@
 {
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorWidth": 4,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 20,
-    "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.lineHeight": 30,
-    "editor.minimap.enabled": false,
-    "editor.suggestSelection": "first",
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay",
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/*/**": true,
-        "**/.hg/store/**": true,
-        "**/vendor/*/**": true
+  "C_Cpp.default.compilerPath": "C:\\dev\\MinGW\\64bits\\8.1.0\\bin\\g++.exe",
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && c:\\dev\\MinGW\\64bits\\8.1.0\\bin\\g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "html": "c:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "php": "c:\\dev\\php-8.1.10\\php.exe"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "namespaceResolver.sortAlphabetically": true,
+  "namespaceResolver.sortOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "wongjn.php-sniffer"
+  },
+  "phpSniffer.autoDetect": true,
+  "phpSniffer.run": "onType",
+  "phpSniffer.standard": "PSR12",
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "sql-formatter.uppercase": true,
+  "terminal.integrated.defaultProfile.windows": "Bash",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.profiles.windows": {
+    "Bash": {
+      "path": ["c:\\dev\\Git\\bin\\bash.exe"],
+      "args": ["-i", "-l"],
+      "icon": "terminal-cmd"
     },
-    "terminal.integrated.customGlyphs": true,
-    "terminal.integrated.enableFileLinks": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.tabs.enabled": true,
-    "window.menuBarVisibility": "compact",
-    "workbench.activityBar.visible": false,
-    "workbench.editor.untitled.hint": "hidden",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none"
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "One Dark",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none"
 }
