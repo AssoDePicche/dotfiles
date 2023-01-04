@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "scripts": {
+    "server": "php -S localhost:3000 -t public"
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "@stable"
+  }
+}
