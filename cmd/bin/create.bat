@@ -1,0 +1,17 @@
+@ECHO OFF
+
+SET DIR=E:/dev
+
+SET PROJECT_NAME=%1
+
+CD /D %DIR%
+
+MD %PROJECT_NAME%
+
+CD %PROJECT_NAME%
+
+MD src
+
+MD __tests__
+
+code .
