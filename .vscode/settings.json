@@ -25,6 +25,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
   "namespaceResolver.showMessageOnStatusBar": true,
   "namespaceResolver.sortAlphabetically": true,
   "namespaceResolver.sortOnSave": true,
