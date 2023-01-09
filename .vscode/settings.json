@@ -1,7 +1,6 @@
 {
   "code-runner.executorMap": {
-    "cpp": "cd $dir && c:\\dev\\MinGW\\64bits\\8.1.0\\bin\\g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "html": "c:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "cpp": "cd $dir && e:\\env\\compiler\\mingw-8.1.0\\bin\\g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "php": "e:\\env\\lang\\php-8.2.1\\php.exe"
   },
