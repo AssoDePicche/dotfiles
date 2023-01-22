@@ -5,7 +5,8 @@
     "php": "e:\\env\\lang\\php-8.2.1\\php.exe"
   },
   "editor.accessibilitySupport": "off",
-  "editor.fontFamily": "Fira Code",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
   "editor.formatOnSave": true,
@@ -15,7 +16,9 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
   "liveServer.settings.donotShowInfoMsg": true,
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
@@ -23,6 +26,9 @@
   "namespaceResolver.showMessageOnStatusBar": true,
   "namespaceResolver.sortAlphabetically": true,
   "namespaceResolver.sortOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
   "terminal.integrated.defaultProfile.windows": "Bash",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.fontSize": 16,
@@ -32,9 +38,6 @@
       "args": ["-i", "-l"],
       "icon": "terminal-bash"
     }
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.visible": false,
