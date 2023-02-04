@@ -19,6 +19,7 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
