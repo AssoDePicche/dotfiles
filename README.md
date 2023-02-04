@@ -1,3 +1,3 @@
 # dotfiles
 
-My personal dotfiles
+Backup of my personal dotfiles
