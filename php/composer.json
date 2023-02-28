@@ -5,7 +5,8 @@
     }
   },
   "scripts": {
-    "server": "php -S localhost:3000 -t public"
+    "server": "php -S localhost:3000 -t public",
+    "tests": "php vendor/bin/phpunit test"
   },
   "config": {
     "process-timeout": 0
