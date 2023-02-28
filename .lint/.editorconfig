@@ -10,5 +10,5 @@ trim_trailing_whitespace = true
 [*.php]
 indent_size = 4
 
-[*.cpp]
+[*.{cpp,java}]
 indent_size = 2
