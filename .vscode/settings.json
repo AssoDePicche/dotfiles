@@ -5,7 +5,7 @@
     "php": "e:\\env\\lang\\php-8.2.1\\php.exe"
   },
   "editor.accessibilitySupport": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "EditorConfig.EditorConfig",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
@@ -41,10 +41,10 @@
     }
   },
   "window.menuBarVisibility": "compact",
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "One Dark",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false
 }
