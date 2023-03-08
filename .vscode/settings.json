@@ -4,6 +4,9 @@
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "php": "e:\\env\\lang\\php-8.2.1\\php.exe"
   },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "EditorConfig.EditorConfig",
   "editor.fontFamily": "JetBrains Mono",
