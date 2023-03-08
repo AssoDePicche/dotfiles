@@ -22,6 +22,9 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "[markdown]": {
