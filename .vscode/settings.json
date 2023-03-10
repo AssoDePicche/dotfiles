@@ -19,6 +19,9 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
