@@ -7,6 +7,9 @@
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "php": "e:\\env\\lang\\php-8.2.1\\php.exe"
   },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
