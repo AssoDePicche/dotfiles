@@ -1,4 +1,7 @@
 {
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "code-runner.executorMap": {
     "cpp": "cd $dir && e:\\env\\compiler\\mingw-8.1.0\\bin\\g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -25,6 +28,11 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
+  "java.project.sourcePaths": ["src", "tests"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -38,6 +46,12 @@
   "namespaceResolver.sortOnSave": true,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
   "terminal.integrated.defaultProfile.windows": "Bash",
   "terminal.integrated.enableMultiLinePasteWarning": false,
