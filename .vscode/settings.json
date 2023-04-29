@@ -2,6 +2,7 @@
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+  "C_Cpp.clang_format_sortIncludes": true,
   "code-runner.executorMap": {
     "cpp": "cd $dir && e:\\env\\compiler\\mingw-8.1.0\\bin\\g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -18,7 +19,7 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
-  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
@@ -50,9 +51,6 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-  "[python]": {
-    "editor.formatOnType": true
-  },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
@@ -67,7 +65,6 @@
     }
   },
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
