@@ -69,5 +69,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "One Dark",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
