@@ -1,9 +1,9 @@
 # dotfiles
 
-Backup of my personal dotfiles
+Backup of my dotfiles
 
-## Cloning this repository
+## Cloning This Repository
 
 ```bash
-git@github.com:AssoDePicche/dotfiles.git
+git clone git@github.com:AssoDePicche/dotfiles.git
 ```
