@@ -5,10 +5,10 @@ charset = utf-8
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{c,cpp,h,hpp,java,js,php,rb,ts}]
+[*.{c,cpp,h,hpp,java,js,php,rb,rs,ts}]
 indent_style = space
 
-[*.{js,php,ts}]
+[*.{js,php,rs,ts}]
 end_of_line = lf
 indent_size = 4
 
