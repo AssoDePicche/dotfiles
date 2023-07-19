@@ -39,3 +39,11 @@ cd ./yay
 
 makepkg -si
 ```
+
+## PHP
+
+```bash
+sudo pacman -Syyuu php
+
+sudo pacman -Syyuu composer
+```
