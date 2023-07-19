@@ -17,11 +17,25 @@ sudo pacman -Syyuu
 ## Docker
 
 ```bash
-sudo pacman -S docker
+sudo pacman -Syyuu docker
 
 sudo systemctl start docker.service
 
 sudo systemctl enable docker.service
 
 sudo docker run hello-world
+```
+
+## Yay
+
+```bash
+sudo pacman -Syyuu git
+
+cd /opt
+
+sudo git clone https://aur.archlinux.org/yay.git
+
+cd ./yay
+
+makepkg -si
 ```
