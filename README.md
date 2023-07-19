@@ -47,3 +47,13 @@ sudo pacman -Syyuu php
 
 sudo pacman -Syyuu composer
 ```
+
+## C/C++
+
+```bash
+sudo pacman -Syyuu gcc
+
+sudo pacman -Syyuu avr-gcc
+
+sudo pacman -Syyuu avr-dude
+```
