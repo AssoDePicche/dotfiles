@@ -2,8 +2,22 @@
 
 Backup of my dotfiles
 
-## Cloning This Repository
+## Ubuntu
 
 ```bash
-git clone git@github.com:AssoDePicche/dotfiles.git
+sudo apt update -y && sudo apt dist-upgrade -y
+
+apt list --upgradable
+```
+
+## Arch
+
+```bash
+sudo pacman-key --init
+
+sudo pacman-key --populate
+
+sudo pacman -Sy archlinux-keyring
+
+sudo pacman -Syyuu
 ```
