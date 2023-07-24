@@ -40,6 +40,18 @@ cd ./yay
 makepkg -si
 ```
 
+## Zsh
+
+```bash
+sudo pacman -Syyuu zsh
+```
+
+## Oh My Zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ## PHP
 
 ```bash
