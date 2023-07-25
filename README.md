@@ -68,4 +68,6 @@ sudo pacman -Syyuu gcc
 sudo pacman -Syyuu avr-gcc
 
 sudo pacman -Syyuu avr-dude
+
+sudo pacman -Syyuu cmake
 ```
