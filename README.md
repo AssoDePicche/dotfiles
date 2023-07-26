@@ -71,3 +71,9 @@ sudo pacman -Syyuu avr-dude
 
 sudo pacman -Syyuu cmake
 ```
+
+## Java
+
+```bash
+sudo pacman -Syyuu jdk-openjdk
+```
