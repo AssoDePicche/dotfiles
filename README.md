@@ -26,6 +26,12 @@ sudo systemctl enable docker.service
 sudo docker run hello-world
 ```
 
+## SSH
+
+```bash
+sudo pacman -Syyuu openssh
+```
+
 ## Yay
 
 ```bash
