@@ -91,3 +91,9 @@ sudo pacman -Syyuu nodejs
 
 sudo npm update -g
 ```
+
+## Python
+
+```bash
+sudo pacman -Syyuu python
+```
