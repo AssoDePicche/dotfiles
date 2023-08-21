@@ -83,3 +83,11 @@ sudo pacman -Syyuu cmake
 ```bash
 sudo pacman -Syyuu jdk-openjdk
 ```
+
+## Node
+
+```bash
+sudo pacman -Syyuu nodejs
+
+sudo npm update -g
+```
