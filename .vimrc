@@ -35,6 +35,7 @@ set nomodeline
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set signcolumn=no
 set shiftround
 set expandtab
 set nojoinspaces
@@ -44,8 +45,6 @@ set splitbelow
 set splitright
 set breakindent
 set autoindent
-
-set list listchars=tab:>>,trail:.,nbsp:.
 
 filetype plugin indent on
 
@@ -69,6 +68,8 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+let NERDTreeShowHidden=1
+
 let g:ale_linters = {
 \ 'cpp': ['g++'],
 \ 'c': ['gcc'],
@@ -90,9 +91,11 @@ let g:ale_fixers = {
 \ 'python': ['black', 'isort'],
 \}
 
-let g:ale_sign_error = '❌'
+let g:ale_sign_error = 'E'
 
-let g:ale_sign_warning = '⚠️'
+let g:ale_sign_warning = 'W'
+
+let g:ale_sign_column_always = 1
 
 let g:ale_linters_explicit = 1
 
@@ -100,7 +103,7 @@ let g:ale_fix_on_save = 1
 
 let g:ale_completion_autoimport = 0
 
-let g:ale_cpp_cc_options = '-std=c++23 -Wall -Wextra'
+let g:ale_cpp_cc_options = '-std=c++23 -Wall -Wextra -Wpedantic'
 
 let g:ale_c_clangformat_options = '--style=Google'
 
