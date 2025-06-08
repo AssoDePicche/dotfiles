@@ -103,6 +103,8 @@ let g:ale_fix_on_save = 1
 
 let g:ale_completion_autoimport = 0
 
+let g:ale_c_cc_options = '-std=c23 -Wall -Wextra -Wpedantic'
+
 let g:ale_cpp_cc_options = '-std=c++23 -Wall -Wextra -Wpedantic'
 
 let g:ale_c_clangformat_options = '--style=Google'
