@@ -80,4 +80,4 @@ export FZF_DEFAULT_COMMAND=''
 
 export FZF_CTRL_T_COMMAND=''
 
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
+export TERMINAL=kitty
