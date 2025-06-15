@@ -30,6 +30,10 @@ export LANG=en_US.UTF-8
 
 export EDITOR='vim'
 
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
+
 alias zshconfig="mate ~/.zshrc"
 
 alias ohmyzsh="mate ~/.oh-my-zsh"
