@@ -14,8 +14,18 @@ export PATH="$PATH:/usr/games:/usr/local/games:/snap/bin"
 
 export PATH="~/.config/composer/vendor/bin:$PATH"
 
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+export ZSH="$HOME/.oh-my-zsh"
+
 export FZF_DEFAULT_COMMAND=''
 
 export FZF_CTRL_T_COMMAND=''
 
 export TERMINAL=kitty
+
+export MANPATH="/usr/local/man:$MANPATH"
+
+export LANG=en_US.UTF-8
+
+export EDITOR='vim'
