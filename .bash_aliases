@@ -12,4 +12,4 @@ alias z='cd '
 
 alias ..='cd ..'
 
-alias refresh='source ./export_vars.sh'
+alias refresh='source ~/export_vars.sh'
