@@ -11,3 +11,5 @@ alias q='exit'
 alias z='cd '
 
 alias ..='cd ..'
+
+alias refresh='source ./export_vars.sh'
