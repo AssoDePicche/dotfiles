@@ -129,4 +129,6 @@ let g:ale_css_stylelint_options = '--fix'
 
 let g:user_emmet_install_global = 0
 
+:let $FZF_DEFAULT_COMMAND = 'fdfind --type f --hidden --follow --exclude .git --exclude node_modules --exclude dist --exclude build --exclude vendor --exclude target'
+
 autocmd FileType html,css EmmetInstall
